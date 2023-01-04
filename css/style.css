@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#titulo{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+#formulario{
+    border: 2px solid #333;
+    padding: 1.7vh;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+#inputs{
+    display: flex;
+}
+
+#inputs input{
+    width: 50%;
+    padding: 0.7rem;
+    border-radius: 5px;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    font-size: 18px;
+}
+
+#mensagem{
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#btn{
+    padding: 1rem;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgba(11, 159, 218, 0.959);
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#btn:hover{
+    background-color: rgba(10, 93, 126, 0.959);
+}
+
+#chat{
+    border: 1px solid #333;
+    padding: 1.2rem;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+#chat h1{
+    font-size: 20px;
+    margin-right: 0.5rem;
+}
+
+#chat p{
+    font-size: 20px;
+    border-bottom: 1px solid #333;
+    margin-bottom: 1%;
+}
+
+@media(min-width: 1200px){
+    #formulario{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
